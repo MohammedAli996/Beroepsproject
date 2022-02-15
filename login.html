@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="./css/login.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="icon" href="./photo/logo.ico">
+      <meta name="viewport" content="width=device-width,initial-scale=1"> 
+      <title>PC4YOU</title>
+  </head>
+  <body>
+      <nav>
+        <!--Top nav -->
+        <div class="topnav" id="myTopnav">
+          <a href="Home.html"><img src="./photo/logo.ico"></a>
+          <a href="Home.html">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Shop 
+            <i class="fa fa-caret-down"></i>
+            </button> 
+            <div class="dropdown-content">
+              <a href="laptops.html">Laptops</a>
+              <a href="PC.html">PC</a>
+              <a href="Monitoren.html">Monitoren </a>
+              <a href="Muizen.html">Muizen</a>
+              <a href="Toetsenbord.html">Toetsenbord</a>
+            </div>
+          </div>
+        <div class="dropdown">
+          <button class="dropbtn">Hardware 
+            <i class="fa fa-caret-down"></i>
+          </button>  
+          <div class="dropdown-content">
+            <a href="DVD.html">DVD spelers/branders</a>
+            <a href="Geheugenkaart.html">Geheugenkaarten </a>
+            <a href="Gluid.html">Geluids- en grafische kaarten </a>
+            <a href="Hardschijven.html">Harde schijven in- en extern</a>
+            <a href="Netwerk.html">Netwerkkaarten en bekabeling </a>
+            <a href="Voedingen.html">Voedingen</a>
+          </div>
+        </div>
+          <a href="reparatie.html">Reparatie</a>
+          <a href="info.html">Informatie</a>
+          <a><input type="search" name="search" placeholder="Search..."></a>
+          <a href="#"><img src="./photo/winkelwagen.png">  Winkelwagen</a>
+          <a href="login.html" class="active"><img src="./photo/man.png"> Login</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
+      </nav>
+      <div class="login-wrap">
+        <div class="login-html">
+          <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Inloggen</label>
+          <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Inschrijven</label>
+          <div class="login-form">
+            <div class="sign-in-htm">
+              <div class="group">
+                <label for="user" class="label">Gebruikersnaam</label>
+                <input id="user" type="text" class="input">
+              </div>
+              <div class="group">
+                <label for="pass" class="label">Wachtwoord</label>
+                <input id="pass" type="password" class="input" data-type="password">
+              </div>
+              <div class="group">
+                <input id="check" type="checkbox" class="check" checked>
+                <label for="check"><span class="icon"></span> Houd mij aangemeld</label>
+              </div>
+              <div class="group">
+                <input type="submit" class="button" value="Sign In">
+              </div>
+              <div class="hr"></div>
+              <div class="foot-lnk">
+                <a href="#forgot">Wachtwoord vergeten?</a>
+              </div>
+            </div>
+            <div class="sign-up-htm">
+              <div class="group">
+                <label for="user" class="label">Gebruikersnaam</label>
+                <input id="user" type="text" class="input">
+              </div>
+              <div class="group">
+                <label for="pass" class="label">Wachtwoord</label>
+                <input id="pass" type="password" class="input" data-type="password">
+              </div>
+              <div class="group">
+                <label for="pass" class="label">Herhaal wachtwoord</label>
+                <input id="pass" type="password" class="input" data-type="password">
+              </div>
+              <div class="group">
+                <label for="pass" class="label">E-mailadres</label>
+                <input id="pass" type="text" class="input">
+              </div>
+              <div class="group">
+                <input type="submit" class="button" value="Sign Up">
+              </div>
+              <div class="hr"></div>
+              <div class="foot-lnk">
+                <label for="tab-1">Al lid?</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+  <!--Footer-->
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <h3 href="#"><img src="./photo/logo.png">PC4YOU</h3>
+        <p class="footer-links">
+          <a href="Home.html">Home</a>
+          |
+          <a href="Shop.html">Shop</a>
+          |
+          <a href="Reparatie.html">Reparatie</a>
+          |
+          <a href="info.html">Informatie</a>
+        </p>
+        <p class="footer-company-name">© 2022 PC4U Computers Service.</p>
+      </div>
+      <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Fraijlemaborg 135, 1102 CV Amsterdam</span></p>
+      </div>
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+31205791111</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@Pc4Yu.com">Support@PC4YOU.com</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>Over ons bedrijf</span>
+        Wij zijn een bedrijf die onderdelen verkopen en ook desktops/laptops verkopen, ook repareren PC'S en Laptops. </p>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="./css/Reparatie.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="icon" href="./photo/logo.ico">
+      <meta name="viewport" content="width=device-width,initial-scale=1"> 
+      <title>PC4YOU</title>
+    </head>
+    <body>
+      <nav>
+        <!--Top nav -->
+        <div class="topnav" id="myTopnav">
+          <a href="Home.html"><img src="./photo/logo.ico"></a>
+          <a href="Home.html">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Shop 
+            <i class="fa fa-caret-down"></i>
+            </button> 
+            <div class="dropdown-content">
+              <a href="laptops.html">Laptops</a>
+              <a href="PC.html">PC</a>
+              <a href="Monitoren.html">Monitoren </a>
+              <a href="Muizen.html">Muizen</a>
+              <a href="Toetsenbord.html">Toetsenbord</a>
+            </div>
+          </div>
+        <div class="dropdown">
+          <button class="dropbtn">Hardware 
+            <i class="fa fa-caret-down"></i>
+          </button>  
+          <div class="dropdown-content">
+            <a href="DVD.html">DVD spelers/branders</a>
+            <a href="Geheugenkaart.html">Geheugenkaarten </a>
+            <a href="Gluid.html">Geluids- en grafische kaarten </a>
+            <a href="Hardschijven.html">Harde schijven in- en extern</a>
+            <a href="Netwerk.html">Netwerkkaarten en bekabeling </a>
+            <a href="Voedingen.html">Voedingen</a>
+          </div>
+        </div>
+          <a href="reparatie.html" class="active">Reparatie</a>
+          <a href="info.html">Informatie</a>
+          <a><input type="search" name="search" placeholder="Search..."></a>
+          <a href="#"><img src="./photo/winkelwagen.png">  Winkelwagen</a>
+          <a href="login.html"><img src="./photo/man.png" > Login</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+        </script>
+      </nav>
+
+                      <div class="container">
+                    <form action="">
+                          <div class="col-md-6 offset-md-3 border p-4 shadow bg-light">
+                              <div class="col-12">
+                                  <h1 class="fw-normal text-secondary fs-4 text-uppercase mb-4">Afspraak maken</h1>
+                              </div>
+                              <form action="Afspraak">
+                                  <div class="row g-3">
+                                      <div class="col-md-6">
+                                          <input type="text" class="form-control" placeholder="Voornaam">
+                                      </div>
+                                      <div class="col-md-6">
+                                          <input type="text" class="form-control" placeholder="Achternaam">
+                                      </div>
+                                      <div class="col-md-6">
+                                          <input type="tel" class="form-control" placeholder="Telefoonnummer">
+                                      </div>
+                                      <div class="col-md-6">
+                                          <input type="email" class="form-control" placeholder="Email">
+                                      </div>
+                                      <div class="col-md-6">
+                                          <input type="date" class="form-control" placeholder="Enter Date">
+                                      </div>
+                                      <div class="col-md-6">
+                                          <input type="time" class="form-control" placeholder="Enter Email">
+                                      </div>
+                                      <div class="col-12">
+                                          <select class="form-select">
+                                              <option selected>Doel van de afspraak</option>
+                                              <option value="1">Laptop Reparatie</option>
+                                              <option value="2">PC Reparatie</option>
+                                          </select>
+                                      </div>
+                                      <div class="col-12">
+                                          <textarea class="form-control" placeholder="Bericht"></textarea>
+                                      </div>
+                                      <div class="col-12 mt-5">                        
+                                          <button type="submit" class="btn btn-primary float-end">Afspraak boeken</button>
+                                          <button type="button" class="btn btn-outline-secondary float-end me-2">Annuleren</button>
+                                      </div>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                    </div>
+                  </form>
+    </form>
+</body>
+ <!--Footer-->
+ <footer class="footer-distributed">
+  <div class="footer-left">
+      <h3 href="#"><img src="./photo/logo.png">PC4YOU</h3>
+
+      <p class="footer-links">
+          <a href="Home.html">Home</a>
+          |
+          <a href="Shop.html">Shop</a>
+          |
+          <a href="info.html">Informatie</a>
+      </p>
+
+      <p class="footer-company-name">© 2022 PC4U Computers Service.</p>
+  </div>
+
+  <div class="footer-center">
+          <div>
+              <i class="fa fa-map-marker"></i>
+              <p><span>Fraijlemaborg 135, 1102 CV Amsterdam</span></p>
+          </div>
+          <div>
+              <i class="fa fa-phone"></i>
+              <p>+31205791111</p>
+          </div>
+          <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:support@Pc4Yu.com">Support@PC4YOU.com</a></p>
+          </div>
+
+  </div>
+  <div class="footer-right">
+      <p class="footer-company-about">
+      <span>Over ons bedrijf</span>
+      Wij zijn een bedrijf die onderdelen verkopen en ook desktops/laptops verkopen, ook repareren PC'S en Laptops. </p>
+  </div>
+</footer>
+</html>
