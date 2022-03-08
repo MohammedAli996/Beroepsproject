@@ -9,24 +9,10 @@ body {
 	width: 100%;
 	height: 100%;
 }
-a {
-	color: #FFF;
-	text-decoration: none;
-}
-p {
-	text-align: center;
-}
 .topnav {
   overflow: hidden;
   background-color: #0b0c0b;
 }
-h3 {
-	font-size: 30px;
-	line-height: 34px;
-	text-align: center;
-	color: #FFF;
-}
-
 .topnav a {
   float: left;
   display: block;
@@ -37,7 +23,7 @@ h3 {
   font-size: 17px;
 }
 
-.active {
+#active {
   background-color: #b91b16;
   color: white;
 }
