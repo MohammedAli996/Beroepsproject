@@ -9,6 +9,12 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
 /* Top nav */
 
 .topnav {
@@ -313,7 +319,6 @@ input[type=submit]{
 }
 
 .foot-lnk{
-	margin-top: -12%;
 	text-align: center;
 
 }

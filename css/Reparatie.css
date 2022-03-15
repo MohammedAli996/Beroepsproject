@@ -9,6 +9,12 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
 /* Top nav */
 
 .topnav {
@@ -375,29 +381,21 @@ textarea {
   border: none;
   background: rgb(235, 228, 228);
 }
-.afspraak{
-	font-size: 0.90em;
-	text-align: center;
-	margin: 10px auto;
-  	width: 100%;
-}
+
 input[type=submit]{
   margin: 10px auto;
-  width: 100%;
+  width: 120px;
   background: rgb(216, 31, 62);
   color: white;
   cursor: pointer;
 }
+
 input[type=submit]:hover{
-	background: rgba(30, 190, 110, 0.883);
-	}
-input[type=submitannuleren]{
-	margin: 10px auto;
-  width: 100%;
-  background: rgb(216, 31, 62);
-  color: white;
-  cursor: pointer;
+background: rgba(30, 190, 110, 0.883);
 }
-input[type=submitannuleren]:hover{
-	background: rgba(30, 190, 110, 0.883);
+
+@media screen and (max-width:600px) {
+  .container{
+      width: 90%;
+  }
 }
