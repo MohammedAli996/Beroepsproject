@@ -188,7 +188,7 @@ input[type=search] {
 	line-height: 2px;
 }
 
-.grid-itemm .add-to-cart {
+.grid-container .grid-itemm .add-to-cart {
 	padding: 12px 28px;
 	background-color: #660708;
 }
