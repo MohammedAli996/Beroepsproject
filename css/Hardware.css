@@ -135,7 +135,7 @@ input[type=search] {
 }
 
 .grid-container {
-	display: grid;
+	display: block;
 	grid-template-columns: repeat( auto-fill, minmax(400px, 1fr) );
 	background-color: #212121;
 	padding: 10px;
@@ -152,7 +152,7 @@ input[type=search] {
 }
 
 .grid-container{
-	display: grid;
+	display: block;
 	background-color: #212121;
 	padding: 10px;
 	grid-column-gap: 1%;
@@ -193,7 +193,7 @@ footer{
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 50px 50px 60px 50px;
-	margin-top: 80px;
+	margin-top: 8px;
 }
  
 .footer-distributed .footer-left,
