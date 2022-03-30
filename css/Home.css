@@ -17,6 +17,7 @@ p {
 	text-align: center;
 }
 .topnav {
+    position: fixed;
 	overflow: hidden;
     background-color: #0b0c0b;
 }
