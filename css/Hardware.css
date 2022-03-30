@@ -15,8 +15,10 @@ a {
 }
 /* Top nav */
 .topnav {
-  overflow: hidden;
-  background-color: #0b0c0b;
+    position: fixed;
+	overflow: hidden;
+    background-color: #0b0c0b;
+	width: 100%;
 }
 .topnav a {
   float: left;
