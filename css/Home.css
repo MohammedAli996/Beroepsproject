@@ -159,8 +159,8 @@ input[type=search] {
 .sale {
   	text-align: center;
   	display: block;
-	grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr));
-	padding: 4%;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	padding: 3%;
 	grid-column-gap: 1%;
 	grid-row-gap: 1%;
 }

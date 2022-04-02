@@ -13,7 +13,7 @@
         <!--Top nav -->
         <div class="topnav" id="myTopnav">
           <a href="Home.html"><img src="./photo/Logo/logo.ico"></a>
-          <a href="Home.html">Home</a>
+          <a href="Home.html" class="active">Home</a>
           <div class="dropdown">
             <button class="dropbtn">Shop 
             <i class="fa fa-caret-down"></i>
@@ -44,6 +44,8 @@
           <a><input type="search" name="search" placeholder="Search..."></a>
           <a href="#"><img src="./photo/winkelwagen.png">  Winkelwagen</a>
           <a href="login.html"><img src="./photo/man.png" > Login</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
         <script>
           function myFunction() {
             var x = document.getElementById("myTopnav");
@@ -55,8 +57,7 @@
           }
         </script>
       </nav>
-    </body>
-    <div class="containe">
+      <div class="containe">
         <form action="">
           <div class="col-md-6 offset-md-3 border p-4 shadow bg-light">
             <div class="col-12">
@@ -92,15 +93,16 @@
                 <div class="col-12">
                   <textarea class="form-control" placeholder="Bericht"></textarea>
                 </div>
-                <div class="group">
+                <div class="submit">
                   <input type="submit" class="button" value="Afspraak maken"><br>
-                  <input type="submitannuleren" class="button" value="Annuleren">
+                  <input type="submit" class="button" value="Annuleren">
                 </div>
               </div>
             </form>
           </div>
         </form>
       </div>
+    </body>
      <!--Footer-->
     <footer class="footer-distributed">
       <div class="footer-left">

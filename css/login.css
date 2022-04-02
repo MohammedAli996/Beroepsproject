@@ -9,31 +9,27 @@ body {
 	width: 100%;
 	height: 100%;
 }
-
 a {
 	color: #FFF;
 	text-decoration: none;
 }
 
 /* Top nav */
-
 .topnav {
     position: fixed;
 	overflow: hidden;
     background-color: #0b0c0b;
 	width: 100%;
 }
-
 .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
-  
 .active {
     background-color: #b91b16;
     color: white;
@@ -92,7 +88,7 @@ a {
     display: block;
 }
   
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
       display: none;
     }
@@ -102,7 +98,7 @@ a {
     }
 }
   
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
@@ -150,10 +146,9 @@ a{color:inherit;text-decoration:none}
 
 .login-wrap{
 	width: 100%;
-	margin: 5vh auto;
+	margin: auto;
 	max-width: 500px;
 	min-height: 600px;
-	position: relative;
 	box-shadow: 0 0 20px rgb(180, 51, 73);
 	
 }
@@ -161,8 +156,7 @@ a{color:inherit;text-decoration:none}
 .login-html{
 	width: 100%;
 	height: 100%;
-	position: absolute;
-	padding: 90px 70px 50px 70px;
+	padding: 100px 70px 50px 70px;
 	background: #212121;
 }
 
@@ -311,8 +305,8 @@ a{color:inherit;text-decoration:none}
 }
 
 .hr{
-	height: 2px;
-	margin: 60px 0 50px 0;
+	height: 5px;
+	margin: 50px 0 0px 0;
 	background: rgba(255,255,255,.2);
 }
 
@@ -341,18 +335,18 @@ footer{
 .footer-distributed{
 	background-color: #2c292f;
 	box-sizing: border-box;
-	width: 100%;
+	width: 99%;
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 50px 50px 60px 50px;
-	margin-top: 80px;
+	margin-top: 1%;
 }
  
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
 .footer-distributed .footer-right{
 	display: inline-block;
-	vertical-align: top;
+	vertical-align:auto;
 }
  
 /* Footer left */
@@ -413,7 +407,7 @@ width: 30%;
 	border-radius: 50%;
   text-align: center;
 	line-height: 42px;
-	margin: 10px 15px;
+	margin: 20px 30px;
 	vertical-align: middle;
 }
  
