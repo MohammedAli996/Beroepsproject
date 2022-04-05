@@ -9,27 +9,32 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
 a {
 	color: #FFF;
 	text-decoration: none;
 }
 
 /* Top nav */
+
 .topnav {
+	z-index: 10;
     position: fixed;
 	overflow: hidden;
     background-color: #0b0c0b;
 	width: 100%;
 }
+
 .topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
+  
 .active {
     background-color: #b91b16;
     color: white;
@@ -58,7 +63,7 @@ a {
   
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -120,7 +125,6 @@ a {
 }
 
 /* search */
-
 input[type=search] {
 	width: 100%;
 	box-sizing: border-box;
@@ -135,13 +139,22 @@ input[type=search] {
 	padding-right: 30px;
 	padding-bottom: 12px;
 	padding-left: 43px;
-	position: relative
+	position: relative;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat( auto-fill, minmax(400px, 1fr) );
+	padding: 10px;
+	grid-column-gap: 1%;
+	grid-row-gap: 15px;	
+	
 }
 
 /* login en sigen up */
 *,:after,:before{box-sizing:border-box}
-.clearfix:after,.clearfix:before{content:'';display:table}
-.clearfix:after{clear:both;display:block}
+.clearfix:after,.clearfix:before{content:''; display: block;}
+.clearfix:after{clear:both;display: block;}
 a{color:inherit;text-decoration:none}
 
 .login-wrap{
@@ -149,20 +162,18 @@ a{color:inherit;text-decoration:none}
 	margin: auto;
 	max-width: 500px;
 	min-height: 600px;
-	box-shadow: 0 0 20px rgb(180, 51, 73);
+	box-shadow: 0 0 50px rgb(180, 51, 73);
 	
 }
 
 .login-html{
-	width: 100%;
-	height: 100%;
 	padding: 100px 70px 50px 70px;
 	background: #212121;
 }
 
 .login-html .sign-in-htm,
 .login-html .sign-up-htm{
-	top: 0;
+	top: -1%;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -286,6 +297,7 @@ a{color:inherit;text-decoration:none}
 }
 
 .login-form .group .check:checked + label .icon{
+	display:flex;
 	background: #1161ee;
 }
 
