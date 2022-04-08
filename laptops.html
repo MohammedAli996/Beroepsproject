@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./css/Software.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="icon" href="./photo/Logo/logo.ico">
+      <meta name="viewport" content="width=device-width,initial-scale=1"> 
+      <title>PC4YOU</title>
+    </head>
+    <body>
+        <nav>
+            <!--Top nav -->
+            <div class="topnav" id="myTopnav">
+              <a href="Home.html"><img src="./photo/Logo/logo.ico"></a>
+              <a href="Home.html">Home</a>
+              <div class="dropdown">
+                <button class="dropbtn" id="active">Shop 
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="laptops.html">Laptops</a>
+                    <a href="PC.html">PC</a>
+                    <a href="Monitoren.html">Monitoren </a>
+                    <a href="Muizen.html">Muizen</a>
+                    <a href="Toetsenbord.html">Toetsenbord</a>
+                  </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Hardware 
+                      <i class="fa fa-caret-down"></i>
+                    </button>  
+                    <div class="dropdown-content">
+                      <a href="DVD.html">DVD spelers-branders</a>
+                      <a href="Geheugenkaart.html">Geheugenkaarten </a>
+                      <a href="Geluids-grafische.html">Geluids-grafische kaarte</a>
+                      <a href="Hardschijven.html">Harde schijven-extern</a>
+                      <a href="Netwerk.html">Netwerkkaarten-bekabeling </a>
+                      <a href="Voedingen.html">Voedingen</a>
+                    </div>
+                  </div>
+                    <a href="reparatie.html">Reparatie</a>
+                    <a href="info.html">Informatie</a>
+                    <a><input type="search" name="search" placeholder="Search..."></a>
+                    <a href="#"><img src="./photo/winkelwagen.png">  Winkelwagen</a>
+                    <a href="login.html"><img src="./photo/man.png" > Login</a>
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                            x.className += " responsive";
+                        } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+        </nav>
+        <div class="grid-container">
+            <div class="grid-itemm">
+                <img alt="laptop" src= "./photo/Laptops/1Asus-ROG-STRIX-G513QY-HQ008W-RX6800M-Gaming-laptop.png"  width="70%">
+                <h5>Lenovo Legion 5 Pro AMD Ryzen 7 5800H 16.0" RTX3070 Gaming laptop</h5>
+                <h5>&euro; 1649</h5>
+                <a href="#" data-name="Asus-DRW-24D5MT" data-price="21,95" class="add-to-cart btn btn-primary">Add to cart</a>
+            </div>
+            <div class="grid-itemm">
+                <img alt="laptp" src= "./photo/Laptops/2Asus-ROG-STRIX-G513IC-HN004T-RTX3050-Gaming-laptop.png" width="70%">
+                <h5>Asus ROG STRIX G513IC-HN004T RTX3050 Gaming laptop</h5>
+                <h5>&euro; 1049</h5>
+                <a href="#" data-name="Asus-DRW-24D5M" data-price="16,95" class="add-to-cart btn btn-primary">Add to cart</a>
+            </div>
+            <div class="grid-itemm">
+                <img alt="laptop" src="./photo/Laptops/3MSI-Alpha-15-B5EEK-009NL-laptop.png" width="70%">
+                <h5>MSI Alpha 15 B5EEK-009NL laptop</h5>
+                <h5>&euro; 999</h5>
+                <a href="#" data-name="Lite-On-IHAS124" data-price="18,95" class="add-to-cart btn btn-primary">Add to cart</a>
+            </div>
+            <div class="grid-itemm">
+                <img alt="laptop" src="./photo/Laptops/4MSI-Alpha-15-B5EEK-011NL-Gaming-laptop.png"width="70%">
+                <h5>MSI Alpha 15 B5EEK-011NL Gaming laptop</h5>
+                <h5>&euro; 899</h5>
+                <a href="#" data-name="Lite-On-IHAS124" data-price="18,95" class="add-to-cart btn btn-primary">Add to cart</a>
+            </div>
+        </div>
+    </body>
+   <!--Footer-->
+   <footer class="footer-distributed">
+    <div class="footer-left">
+      <h3 href="#"><img src="./photo/Logo/logo.png">PC4YOU</h3>
+        <p class="footer-links">
+          <a href="Home.html">Home</a>
+          |
+          <a href="Reparatie.html">Reparatie</a>
+          |
+          <a href="info.html">Informatie</a>
+        </p>
+        <p class="footer-company-name">© 2022 PC4U Computers Service.</p>
+      </div>
+      <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Fraijlemaborg 135, 1102 CV Amsterdam</span></p>
+      </div>
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+31205791111</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@Pc4Yu.nl">Support@PC4YOU.nl</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>Over ons bedrijf</span>
+        Wij zijn een bedrijf die onderdelen verkopen en ook desktops/laptops verkopen, ook repareren PC'S en Laptops. </p>
+    </div>
+  </footer>
+</html>
