@@ -167,6 +167,7 @@ input[type=search] {
 	padding: 12px 28px;
 	background-color: #660708;
 }
+
 /*footer */
 footer{
 	padding-top: 10%;
@@ -247,15 +248,14 @@ width: 30%;
 }
  
 .footer-distributed .footer-center i{
-	background-color:  #33383b;
 	color: #ffffff;
 	font-size: 25px;
-	width: 38px;
-	height: 38px;
+	width: 14.5px;
+	height: 30px;
 	border-radius: 50%;
   text-align: center;
 	line-height: 42px;
-	margin: 20px 30px;
+	margin: 10px 8px;
 	vertical-align: middle;
 }
  
